@@ -17,18 +17,26 @@ This project is designed to **secure a Linux server** and **monitor login activi
 - on the other hand if you entered incorrect password for 3 times on row it will print suspicious activity detected: 3 failed login attempts, and send an email that there is a suspicious activity someone is trying to enter the account and entered an incorrect password for three times on row and for sure will also explain when this happend and by who and on which account
 - i will keep learning so i can improve this script by also explain the ip of the one who is trying to enter the account and i will also add more info about this person so the code will be much effective
 - you can as i said in how to run the script, make the code automatically whenever you open your device so you monitor the logs constantly, dont forget to take a look in the screen shots file to take an idea on how this process looks like
- 
-  
 
+---
 
+# Requirements (Python Libraries Used)
+Here's a list of the Python standard libraries used in the project:
 
+time
+Used to introduce delays and control the interval of log file checks.
 
+smtplib
+Used to send email alerts through the SMTP protocol.
 
+email.mime.text.MIMEText
+Used to create the text content of the email message.
 
+email.mime.multipart.MIMEMultipart
+Used to build a structured email with headers and body (e.g., subject, from, to, content).
 
-
-
-
+datetime
+Used to retrieve and format the current date and time of login attempts or suspicious activities 
 
 ---
 
