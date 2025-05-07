@@ -36,5 +36,6 @@ you can also type it without sudo it depenends on your settings
 # Clone the project
 
 ```bash
-git clone https://github.com/adhamsaleh13/linux-server-hardening-log-monitor.git
-cd linux-server-hardening-log-monitor
+git clone https://github.com/adhamsaleh13/Linux-Server-Hardening-Log-Monitor.git
+cd Linux-Server-Hardening-Log-Monitor
+
