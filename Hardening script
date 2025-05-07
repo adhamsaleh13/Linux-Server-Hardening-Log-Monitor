@@ -27,6 +27,6 @@ sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
 sudo systemctl status fail2ban
 
-# there is alot of options i just used a few but you can add on this forsure
+# there is alot of options i just used a few but you can add on this for sure!
 
 echo "System hardening completed!"
