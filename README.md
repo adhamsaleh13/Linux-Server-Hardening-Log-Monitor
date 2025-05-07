@@ -11,7 +11,6 @@ This project is designed to **secure a Linux server** and **monitor login activi
 - in the ufw (firewall) i blocked any incoming and allowed any outgoing its a default policy that makes your system more secure by blocking unauthorized access but still allowing your system to initiate outgoing connections
 - Fail2ban is a security tool that protects your system from brute force attacks by monitoring log files for suspicious activity. When it detects multiple failed login attempts or other malicious patterns, it automatically blocks the offending IP addresses using firewall rules. This helps prevent unauthorized access and make you device secure
 - and systemctl stop [service name ] is used to stop a servie that is not necessary and can be used to attack the sever or your device for example > apache2 if you dont use web server
-- there is alot of more options to secure your device or server but i only used these as a start for me!
   
 
 
