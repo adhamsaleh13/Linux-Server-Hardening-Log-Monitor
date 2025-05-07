@@ -28,7 +28,10 @@ sudo bash hardening_script.sh
 
 and to run the log monitor script do this
 sudo python3 log_analyst.py
-you can also type it without sudo it depenends on your settings 
+you can also type it without sudo it depenends on your settings
+
+* you can auto run both of them on Boot if you need to monitor logs constantly using systemctl and systemd settings
+
 
 # Clone the project
 
