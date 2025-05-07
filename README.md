@@ -23,10 +23,10 @@ This project is designed to **secure a Linux server** and **monitor login activi
 ---
 
 # How to Run
-to run the hardening script do this
+to run the hardening script do this:
 sudo bash hardening_script.sh
 
-and to run the log monitor script do this
+and to run the log monitor script do this:
 sudo python3 log_analyst.py
 you can also type it without sudo it depenends on your settings
 
