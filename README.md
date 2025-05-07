@@ -4,15 +4,16 @@
 
 This project is designed to **secure a Linux server** and **monitor login activity** in real-time using a Python script. It provides:
 
-- A hardening shell script to configure security tools like UFW and fail2ban
-- A Python log monitoring script to detect login attempts and send email alerts
-- updating and upgrading the system is very important as it updates often include security patches that fix vulnerabilities. If you don't update your system, it may be susceptible to attacks that target known weaknesses and to fix bugs, etc
-- so i installed them then enabled them then just checked the status to see if they are working or not
-- in the ufw (firewall) i blocked any incoming and allowed any outgoing its a default policy that makes your system more secure by blocking unauthorized access but still allowing your system to initiate outgoing connections
-- Fail2ban is a security tool that protects your system from brute force attacks by monitoring log files for suspicious activity. When it detects multiple failed login attempts or other malicious patterns, it automatically blocks the offending IP addresses using firewall rules. This helps prevent unauthorized access and make you device secure
-- and systemctl stop [service name ] is used to stop a servie that is not necessary and can be used to attack the sever or your device for example > apache2 if you dont use web server
+Hardening Shell Script:
+Configures security tools like UFW (firewall) and Fail2ban for better protection
+UFW: Blocks incoming connections by default, allowing outgoing ones to secure the system
+Fail2ban: Prevents brute-force attacks by blocking IPs after multiple failed login attempts
+System Updates: Always update your system to patch vulnerabilities and fix bugs and improve the system
+Disabling Unnecessary Services: Use systemctl stop [service_name] to stop services like Apache2 if not in use, reducing attack vectors, etc
+
+
 - # logs monitoring
-- in the script i made a basic log monitor script so it works?
+- in the script i made a basic log monitor script so how it works?
 - when runing the script if you trird to login and the password you entered is correct then it will print successful login and an email will be sent to you to show when the login happend? and by who? and of course the time the login occured
 - on the other hand if you entered incorrect password for 3 times on row it will print suspicious activity detected: 3 failed login attempts, and send an email that there is a suspicious activity someone is trying to enter the account and entered an incorrect password for three times on row and for sure will also explain when this happend and by who and on which account
 - i will keep learning so i can improve this script by also explain the ip of the one who is trying to enter the account and i will also add more info about this person so the code will be much effective
